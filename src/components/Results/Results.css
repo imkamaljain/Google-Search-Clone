@@ -1,0 +1,23 @@
+.resultsHeader {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    border-bottom: 1px solid #f2f2f2;
+    padding-bottom: 20px;
+}
+.resultsHeader > div:first-child {
+    width: 92px;
+    height: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.resultsHeader img {
+    width: 100%;
+    height: 100%;
+}
+.resultsHeader > .searchContainer {
+    width: 690px;
+    max-width: unset;
+    margin-left: 80px;
+    margin-top: 15px;
+}

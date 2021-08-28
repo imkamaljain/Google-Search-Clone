@@ -1,0 +1,31 @@
+.dataContainer {
+    margin: 20px 180px;
+    width: 700px;
+    font-size: 14px;
+}
+.dataInfo {
+    color: #70757a;
+    font-weight: normal;
+}
+.dataDetails {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+.dataDetails > a:first-child {
+    margin-bottom: 5px;
+    color: #202124;
+    text-decoration: none;
+}
+.dataDetails > a:nth-child(2n) {
+    margin-bottom: 3px;
+    font-size: 20px;
+    color: #1a0dab;
+    text-decoration: none;
+}
+.dataDetails > a:nth-child(2n):hover {
+    text-decoration: underline;
+}
+.dataDetails > span {
+    color: #4d5156;
+}
